@@ -41,3 +41,15 @@ npm run dev
  
  -- install for download
  npm install file-saver
+--
+
+  -- begore
+  npm install --save-dev @babel/plugin-syntax-jsx
+  
+  --
+  npm install --save-dev @testing-library/react
+  
+  -- 
+  npm install -D jest-environment-jsdom
+  -- import fetch
+  npm install node-fetch
