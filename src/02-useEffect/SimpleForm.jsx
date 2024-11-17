@@ -3,10 +3,11 @@ import { Message } from "./Message";
 
 export const SimpleForm = () => {
 
-        const [formState,setFormState] = useState(initialForm);
-    
-    const {username, email} = formState;
+    const [formState,setFormState] = useState(initialForm);
 
+    
+    
+   
     const onInputChange = ({target}) => {
         const {name, value} = target;
         console.log({value});
@@ -18,23 +19,7 @@ export const SimpleForm = () => {
         })
     }
 
-    useEffect( () =>{
-        console.log('useEffect');
-    }, [])
-    
-    useEffect( () =>{
-        console.log('useEffect');
-    }, [formState])
-
-    useEffect( () =>{
-        console.log('email changed');
-    }, [email])
-
-    useEffect( () =>{
-        console.log('username changed');
-    }, [username])
-
-
+   
     return (
         <>
         <h1>Formulario Simple</h1>
