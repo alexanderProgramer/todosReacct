@@ -11,6 +11,9 @@ import { Memorize } from './06-memos/Memorize'
 import { MemoHook } from './06-memos/MemoHook'
 import {CallbackHook} from './06-memos/CallbackHook'
 import { Padre } from './07-tarea-memorize/Padre'
+import './08-Reducer/introduccion-Reducer';
+import TodoApp from './08-Reducer/TodoApp'
+
 
 createRoot(document.getElementById('root')).render(
   //<StrictMode>
@@ -19,6 +22,7 @@ createRoot(document.getElementById('root')).render(
     //<Memorize/>
     //<MemoHook/>
     //<CallbackHook/>
-    <Padre/>
+   //<Padre/>
+   <TodoApp/>
   //</StrictMode>,
 )
